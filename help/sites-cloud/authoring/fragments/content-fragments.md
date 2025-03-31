@@ -8,51 +8,41 @@ role: User
 ---
 # Content Fragments {#content-fragments}
 
-Content fragments in Adobe Experience Manager (AEM) as a Cloud Service are [created and managed as page-independent assets](/help/sites-cloud/administering/content-fragments/overview.md), allowing you to create channel-neutral content, together with (possibly channel-specific) variations. You can use these fragments, and their variations, when authoring your content pages.
+* 💡Content fragments | Adobe Experience Manager (AEM) as a Cloud Service
+  * -- are created & managed as -- [page-independent assets](../../administering/content-fragments/overview.md) 💡
+    * -> enable you to create channel-neutral content + variations 
+  * uses
+    * 👀| author your content pages👀
+  * enable
+    * **Marketing & Campaign Strategy**
+      * TODO: Review content via centrally managed content fragments.
+    * **Creative Pro**
+      * Tracking of creative assets via collections associated with content fragments.
+    * **Copy Writers**
+      * Write in the AEM content fragment editor.
+      * Can create content variations.
+      * Can associate relevant content with the content fragment.
+      * Can use versioning/workflow.
+      * Can share content fragment.
+      * Can manage translations centrally.
+    * **Producers and Journey Managers**
+      * Select from predefined fragments and variations with authoring in AEM.
+      * Can rely on fragment and associated content always being up-to-date as copy writers and creatives make their updates in centrally managed fragments and assets.
+      * Can rely on associated media content being curated for relevancy.
+      * Can create ad-hoc content variations on the fly while still ensuring those variations remain centrally managed in the fragment.
 
->[!CAUTION]
->
->This page must be read in conjunction with [Working with Content Fragments](/help/sites-cloud/administering/content-fragments/overview.md) (and related pages) as it introduces basic terminology and concepts, together with information about creating and managing fragments, and delivering structured content fragments to channels other than AEM pages.
-
->[!NOTE]
->
->Content Fragments are a **Sites** feature, but are stored as **Assets**. 
->
->They are now primarily managed with the **[Content Fragments](/help/sites-cloud/administering/content-fragments/overview.md#content-fragments-console)** console, though they can still be managed from the **[Assets](/help/assets/content-fragments/content-fragments-managing.md)** console.
->
->There are two editors for authoring Content Fragments:
->
->* The new editor for [Content Fragments - Authoring](/help/sites-cloud/administering/content-fragments/authoring.md), is primarily accessed from the **Content Fragments** console.
->* The [original editor](/help/assets/content-fragments/content-fragments-variations.md) is primarily accessed from the **Assets** console. 
-
->[!NOTE]
->
->**Content Fragments** and **[Experience Fragments](/help/sites-cloud/authoring/fragments/content-fragments.md)** are different features within AEM:
->* **Content Fragments** are editorial content, with definition and structure, but without additional visual design and/or layout. They can be used to access structured data, including texts, numbers, and dates, amongst others. 
->* **Experience Fragments** are fully laid out content; a fragment of a web page.
->
->Experience Fragments can contain content in the form of Content Fragments, but not the other way around.
->
->For more information, see [Understanding Content Fragments and Experience Fragments in AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/content-fragments/understand-content-fragments-and-experience-fragments.html#content-fragments).
-
-The content fragments enable:
-
-* **Marketing and Campaign Strategy**
-  * Review content via centrally managed content fragments.
-* **Creative Pro**
-  * Tracking of creative assets via collections associated with content fragments.
-* **Copy Writers**
-  * Write in the AEM content fragment editor.
-  * Can create content variations.
-  * Can associate relevant content with the content fragment.
-  * Can use versioning/workflow.
-  * Can share content fragment.
-  * Can manage translations centrally.
-* **Producers and Journey Managers**
-  * Select from predefined fragments and variations with authoring in AEM.
-  * Can rely on fragment and associated content always being up-to-date as copy writers and creatives make their updates in centrally managed fragments and assets.
-  * Can rely on associated media content being curated for relevancy.
-  * Can create ad-hoc content variations on the fly while still ensuring those variations remain centrally managed in the fragment.
+* **Content Fragments** != **[Experience Fragments](/help/sites-cloud/authoring/fragments/content-fragments.md)**
+  * **Content Fragments**
+    * == editorial content /
+      * has definition & structure
+      * WITHOUT VISUAL design & layout
+    * uses
+      * -- access -- structured data (texts, numbers, and dates, ...)
+  * **Experience Fragments**
+    * == content / FULLY designed
+      * _Example:_ web page's fragment
+    * -- can contain -- content (_Example:_ Content Fragments)
+  * see [here](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/content-fragments/understand-content-fragments-and-experience-fragments.html#content-fragments)
 
 ## Adding a Content Fragment to Your Page {#adding-a-content-fragment-to-your-page}
 
