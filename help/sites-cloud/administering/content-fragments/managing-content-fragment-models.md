@@ -8,29 +8,21 @@ exl-id: f94f75c2-12fa-47c0-a71b-327f4210077d
 ---
 # Managing Content Fragment Models {#managing-content-fragment-models}
 
-From the Content Fragment console you can manage your Content Fragment Models, then [open the editor](/help/sites-cloud/administering/content-fragments/content-fragment-models.md) to define the structure.
+* goal
+  * console / -- ONLY displays -- Content Fragment Models  
 
-Content Fragment Models in Adobe Experience Manager (AEM) as a Cloud Service define the structure for the content of your [Content Fragments](/help/sites-cloud/administering/content-fragments/overview.md). These fragments can then be used as a foundation for your headless content, or for page authoring. 
+* if you want to define the Content Fragment Model's structure -> [open the editor](content-fragment-models.md)
 
->[!IMPORTANT]
->
->Various features of the Content Fragment Console are available through the Early Adopter Program.
->
->To see the status, and how to apply if you are interested, check the [Release Notes](/help/release-notes/release-notes-cloud/release-notes-current.md).
-
->[!NOTE]
->
->This page covers the section of the console that (only) displays Content Fragment Models. For other panels see:
->
->* [Managing Content Fragments](/help/sites-cloud/administering/content-fragments/managing.md) 
->* [Viewing and Managing Assets in the Content Fragments Console](/help/sites-cloud/administering/content-fragments/assets-content-fragments-console.md)
-
->[!NOTE]
->
->Content Fragments are stored as **Assets**. Content Fragment Models are primarily managed from the **Content Fragments** console, but can also be managed from the [Assets](/help/assets/content-fragments/content-fragments-managing.md) console and the option [Content Fragment Models](/help/assets/content-fragments/content-fragments-models.md) that is available from **Tools** - **General**.
+* Content Fragments
+  * stored -- as -- **Assets**
+  * ways to manage them
+    * -- from the -- **Content Fragments** console
+    * -- from the -- [Assets Console](../../../assets/content-fragments/content-fragments-managing.md) 
+    * [Content Fragment Models](../../../assets/content-fragments/content-fragments-models.md)
 
 ## How to work with Content Fragment Models {#how-to-work-with-content-fragment-models}
 
+* TODO:
 As a very quick overview, to work with Content Fragment Models you:
 
 1. [Enable Content Fragment Model functionality for your instance](/help/sites-cloud/administering/content-fragments/setup.md)
