@@ -7,47 +7,76 @@ role: Admin, Developer
 ---
 # What is a Headless CMS? {#what-is-a-headless-cms}
 
-Headless content management is a key development for today's web design that decouples the frontend, client-side applications from the backend, content management system. A headless CMS is therefore responsible for the (backend) content management services, together with the mechanisms allowing the (frontend) applications to access that content.
-
-But what does the term really mean? Here we offer a (very quick) introduction to the key concepts.
+* Headless content management
+  * use case
+    * COMMON today's web design / 
+      * 💡frontend, client-side applications -- is decoupled from the -- backend, content management system 💡
+* headless CMS
+  * responsible for
+    * (backend) content management services
+    * mechanisms / enable (frontend) applications -- can access -- that content
 
 ## What is a Content Management System (CMS)? {#content-management-system}
 
-Let's start with the basics - what is a Content Management System?
-
-A content management system (CMS) stores, manages and delivers the content used to provide your online experiences. 
+* content management system (CMS)
+  * about content / -- provided by -- your online experiences
+    * store,
+    * manage
+    * deliver  
 
 ## Traditional CMS {#traditional-cms}
 
-Traditionally a CMS has included both the backend functionality for content storage and delivery, together with the frontend technology used to render the markup for an experience that your browser will display (the presentation layer). 
-
-Very powerful, giving you full control of the content and formatting, but missing some of the flexibility needed in today's fast-moving environment; for example, when interfacing with external apps.
+* ==
+  * backend functionality /
+    * store content
+    * deliver
+  * frontend technology /
+    * render the markup -- displayed by the -- browser 
+* enable you
+  * FULL control of the
+    * content
+    * formatting
+* MISS
+  * flexibility / needed | today's fast-moving environment
+    * _Example:_ interfacing -- with -- external apps
 
 ## Headless CMS {#headless-cms}
 
-With a headless content management system, backend and frontend are now decoupled. 
-
-The headless part is the content backend, as a headless Content Management System (CMS) is a back-end only content management system, designed and built explicitly as a content repository that makes content accessible via an API, for display on any device.
-
-The frontend, which is developed and maintained independently, fetches content from the headless backend using a Content Delivery API, typically in JSON format. For example, this could be as a React or Angular application (Single Page Application (SPA)).
-
-A headless CMS backend usually requires the content to be structured, based on a model or schema. This facilitates client applications requesting the right content for rendering an experience. Some CMS can expose both structured and unstructured content in JSON format. 
-
-A key characteristic of this topology is that content served by the headless CMS in JSON format is pure content, without design or layout information. In a headless CMS implementation all formatting and layout is maintained by the decoupled frontend application. 
-
-A key benefit of a headless CMS topology is the ability to reuse content across multiple channels, which may use different client-side frontend implementations. This can make the frontend development process more efficient. But it also means the frontend experience development process can become very code and IT-centric, with IT essentially owning the experience. 
+* -> backend -- is decoupled from -- frontend  
+* == content backend /
+  * 's goal
+    * content repository / -- accessible via an -- API
+      * -> can be display | ANY device
+  * requirements
+    * 👀content structured -- based on a -- model or schema 👀
+* frontend
+  * fetches content -- , via Content Delivery API, from the -- headless backend
+  * maintains formatting & layout 
+  * _Example:_ React or Angular application
+* enable
+  * 👀reuse content -- ACROSS -- MULTIPLE channels👀 -> frontend development process 
+    * MORE efficient
+    * VERY code and IT-centric 
 
 ## Content Delivery APIs {#content-delivery-apis}
 
-A headless CMS can provide one, or multiple, ways of exposing content to client-side applications. Most commonly HTTP REST APIs, GraphQL APIs, or both.
-
-While a REST API may often seem an easier way of requesting content (for example, by providing JSON for all content that matches a criteria), they typically deliver too much content to a client application. This can result in the client having to parse and filter out the content that is actually needed for rendering. 
-
-GraphQL by contrast is a more focused mechanism for allowing client applications to query for exactly the content that is needed to render an experience. 
+* headless CMS
+  * -- can provide -- >=1 ways of exposing content -- to -- client-side applications
+    * HTTP REST APIs,
+      * _Example:_ if content matches SOME criteria -> provide JSON
+      * cons
+        * ⚠️NORMALLY deliver TOO MUCH content -- to a -- client application ⚠️
+          * -> client -- will have to -- parse & filter out 
+    * GraphQL APIs
+      * 👀MORE focused mechanism / client applications -- can query for -- concrete need content 👀 
 
 ## Full-Stack CMS {#fullstack-cms}
 
-A Full-Stack CMS commonly represents the traditional topology for content management and delivery, by including the content backend and frontend technology for rendering experiences. Content delivery in full-stack CMS commonly happens over internal content delivery API's. The frontend functionality is typically specific to the fullstack CMS. This coupling of frontend technology with content backend allows for what-you-see-is-what-you-get (WYSIWYG) experience authoring as a key benefit. 
+* TODO:
+A Full-Stack CMS commonly represents the traditional topology for content management and delivery, by including the content backend and frontend technology for rendering experiences. 
+Content delivery in full-stack CMS commonly happens over internal content delivery API's.
+The frontend functionality is typically specific to the fullstack CMS. 
+This coupling of frontend technology with content backend allows for what-you-see-is-what-you-get (WYSIWYG) experience authoring as a key benefit. 
 
 ## Hybrid CMS {#hybrid-cms}
 
