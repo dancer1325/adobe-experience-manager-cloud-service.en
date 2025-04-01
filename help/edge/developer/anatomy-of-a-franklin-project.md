@@ -54,3 +54,14 @@ role: Admin, Architect, Developer
 * TODO:
 
 ### TODO:
+
+### helix-sitemap.yaml
+* allows
+  * if authors publish NEW content -> AUTOMATICALLY sitemaps are created  
+* -- USUALLY based on the -- indexing facility
+* _Examples:_
+  * https://github.com/adobe/pages/blob/main/helix-sitemap.yaml
+  * https://github.com/adobe/fedpub/blob/main/helix-sitemap.yaml
+  * https://github.com/adobe/express-website/blob/main/helix-sitemap.yaml
+
+### TODO:
