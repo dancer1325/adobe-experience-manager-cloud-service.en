@@ -29,6 +29,10 @@ role: Admin, Architect, Developer
           * click "only select repositories", select the recent created one
         * https://<branch>--<repo>--<owner>.aem.page/
           * 👀NEW website running👀
+          * restrictions
+            * ⚠️<branch>--<repo>--<owner> MUST be < 63⚠️
+              * Reason: 🧠subdomain name constraint🧠
+            * ❌`branch`, `repo` & `owner` can NOT contain `--` ❌
           * https://main–-adobe-aem-boilerplate--dancer1325.aem.page/
             * Problems:
               * Problem1: "Error 404 Error 54113"
