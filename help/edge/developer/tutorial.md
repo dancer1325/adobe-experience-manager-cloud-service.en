@@ -8,3 +8,30 @@ role: Admin, Architect, Developer
 # Getting Started - Developer Tutorial
 
 {{$include ce606942-ca03-4bcc-82a0-8b14333c9434}}
+
+* goal
+  * tutorial / create NEW Adobe Experience Manager (AEM) project
+    * create your OWN site
+    * about your OWN content
+      * create, preview, & publish
+      * style
+      * add NEW blocks
+
+* requirements
+  * Github
+  * Google account
+
+* steps
+  * | [aem-boilerplate](https://github.com/adobe/aem-boilerplate)
+    * ways
+      * click "use this template", "create a new repository"
+        * | [AEM Code Sync Github app](https://github.com/apps/aem-code-sync),
+          * click "only select repositories", select the recent created one
+        * https://<branch>--<repo>--<owner>.aem.page/
+          * 👀NEW website running👀
+          * https://main–-adobe-aem-boilerplate--dancer1325.aem.page/
+            * Problems:
+              * Problem1: "Error 404 Error 54113"
+                * Solution: TODO:
+      * fork it -> points | EXISTING content source | Drive
+        * TODO:
